@@ -4,7 +4,7 @@ set -e
 
 
 # For 1.11 or greater, there are multiple binaries,
-# https://test.docker.com/builds/Linux/x86_64/docker-1.11.0-rc1.tgz
+# https://get.docker.com/builds/Linux/x86_64/docker-1.11.1.tgz
 
 # Download a specific version you want to play with
 #wget -O docker https://test.docker.com/builds/Linux/x86_64/docker-1.10.0-rc4
@@ -12,7 +12,8 @@ set -e
 #wget -O docker https://test.docker.com/builds/Linux/x86_64/docker-1.10.2
 
 # Or you can use a local binaries with something like this
-#cp ~/docker-1.11.0/* ./
+#cp ~/bin/1.11/* ./
+cp ~/bin/1.11.1/* ./
 
 # Or perhaps a build from a local engine tree to pick up master or your own dev
 #cp ../docker/bundles/latest/binary/docker .
